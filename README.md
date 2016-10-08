@@ -18,7 +18,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'TenLog', '~> 0.2.2'
+    pod 'TenLog', '~> 1.0.0'
 end
 ```
 
@@ -41,9 +41,11 @@ You can change the settings of the output via the ```TenLogSettings``` class.
 
 ## Changelog
 
-[v0.2.2](https://gitlab.com/mitch10e/tenlog/blob/develop/CHANGELOG.md#022)
+[v1.0.0](https://github.com/mitch10e/TenLog/blob/develop/CHANGELOG.md#100)
 
-[v0.1.0](https://gitlab.com/mitch10e/tenlog/blob/develop/CHANGELOG.md#010)
+[v0.2.2](https://github.com/mitch10e/TenLog/blob/develop/CHANGELOG.md#022)
+
+[v0.1.0](https://github.com/mitch10e/TenLog/blob/develop/CHANGELOG.md#010)
 
 ## Versioning
 

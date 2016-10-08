@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 	spec.name 			= "TenLog"
 	spec.author			= { "mitch10e" => "mitch10e@gmail.com" }
-	spec.version 		= "0.2.3"
+	spec.version 		= "1.0.0"
 	spec.license		= "MIT"
 	
 	spec.summary		= "Easy to read logging"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
 	spec.source_files	= ['Source/Classes/**/*']
 
-	spec.platform		= :ios, "8.0"
+	spec.platform		= :ios, "10.0"
 	spec.requires_arc	= true
 	spec.framework		= "Foundation"
 end
