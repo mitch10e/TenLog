@@ -8,10 +8,11 @@ Pod::Spec.new do |spec|
 	spec.description 	= "A nice lightweight extension to make logging simple and easy to read."
 	
 	spec.homepage		= "https://gitlab.com/mitch10e/tenlog"
-	spec.source			= { :git => "git@gitlab.com:mitch10e/tenlog.git" }
+	spec.source			= { :git => "https://gitlab.com/mitch10e/tenlog.git" }
 
 	spec.source_files	= ['Source/Classes/**/*']
 
+	spec.platform		= :ios, "8.0"
 	spec.requires_arc	= true
 	spec.framework		= "Foundation"
 end
