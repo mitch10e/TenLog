@@ -4,7 +4,7 @@
 [![swift.org](https://img.shields.io/badge/Swift-3.0-orange.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/v/TenLog.svg)]()
 [![license](https://img.shields.io/github/license/mitch10e/TenLog.svg)]()
-[![GitHub tag](https://img.shields.io/github/tag/mitch10e/TenLog.svg)]()
+
 [![GitHub stars](https://img.shields.io/github/stars/mitch10e/TenLog.svg?style=social&label=Star)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/mitchell10e.svg?style=social&label=Follow)]()
 
