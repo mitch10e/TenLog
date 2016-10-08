@@ -1,6 +1,7 @@
 # TenLog
 ## A lightweight logger
 
+[![badge-language]][swift.org]
 [![CocoaPods](https://img.shields.io/cocoapods/v/TenLog.svg?maxAge=2592000)]()
 [![license](https://img.shields.io/github/license/mitch10e/TenLog.svg?maxAge=2592000)]()
 [![GitHub tag](https://img.shields.io/github/tag/mitch10e/TenLog.svg?maxAge=2592000)]()
