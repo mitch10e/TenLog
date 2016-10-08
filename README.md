@@ -40,6 +40,68 @@ To use TenLogs, simply use the ```debug()``` statement as if it were ```print()`
 
 You can change the settings of the output via the ```TenLogSettings``` class.
 
+```ruby
+debug("Hello, World!")
+debug("How are you?\nI am fine.")
+debug("Do you like to have organized logs in your project?\nYes! We hate the timestamp stuff!\nWe usually don't even read the timestamps!\nAnd what is it with those random AppName[Numbers:Numbers] stuff?\nAverage developers don't care about this stuff!\nWe just want something easy to scan through!")
+
+debug("http://www.example.com", tag: "get")
+debug("http://www.example.com", tag: "200")
+
+debug("http://www.failurl.com", tag: "get")
+debug("http://www.failurl.com", tag: "404")
+
+TenLogSettings.disable(tag: "get")
+TenLogSettings.disable(tag: "200")
+TenLogSettings.disable(tag: "404")
+debug("http://www.example.com", tag: "get")
+debug("http://www.example.com", tag: "200")
+
+debug("http://www.failurl.com", tag: "get")
+debug("http://www.failurl.com", tag: "404")
+
+
+let tableFlip = "(╯°□°）╯︵ ┻━┻"
+debug(tableFlip, tag: "rage")
+
+debug("Just use debug() like a normal print()!", tag: "Info")
+debug("Check out the TenLogSettings to modify how the logs work!", tag: "Info")
+
+debug("Item 1", "Item 2", "Item 3", tag: "Test")
+
+debug("Don't forget to ⭐️ the repo!\n\tThank You!", tag: "Vital")
+```
+
+will output the following:
+
+```ruby
+DEBUG  | Hello, World!
+DEBUG  | How are you?
+       | I am fine.
+       ˇ
+DEBUG  | Do you like to have organized logs in your project?
+       | Yes! We hate the timestamp stuff!
+       | We usually don't even read the timestamps!
+       | And what is it with those random AppName[Numbers:Numbers] stuff?
+       | Average developers don't care about this stuff!
+       | We just want something easy to scan through!
+       ˇ
+GET    | http://www.example.com
+200    | http://www.example.com
+GET    | http://www.failurl.com
+404    | http://www.failurl.com
+RAGE   | (╯°□°）╯︵ ┻━┻
+INFO   | Just use debug() like a normal print()!
+INFO   | Check out the TenLogSettings to modify how the logs work!
+TEST   | Item 1
+TEST   | Item 2
+TEST   | Item 3
+VITAL  | Don't forget to ⭐️ the repo!
+       | 	Thank You!
+       ˇ
+```
+
+
 
 ## License
 - This library uses the MIT License
