@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 	spec.license		= "MIT"
 	
 	spec.summary		= "Easy to read logging"
-	spec.description 	= "A nice lightweight extension to make logging simple and easy to read."
+	spec.description 	= "A nice lightweight extension to make logging simple and easy to read. // Swift 3"
 	
 	spec.homepage		= "https://gitlab.com/mitch10e/tenlog"
 	spec.source			= { :git => "https://gitlab.com/mitch10e/tenlog.git", tag: spec.version}
