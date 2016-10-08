@@ -23,6 +23,16 @@ class ViewController: UIViewController {
         debug("http://www.fail.com", tag: "get")
         debug("http://www.fail.com", tag: "404")
         
+        TenLogSettings.disable(tag: "get")
+        TenLogSettings.disable(tag: "200")
+        TenLogSettings.disable(tag: "404")
+        debug("http://www.example.com", tag: "get")
+        debug("http://www.example.com", tag: "200")
+        
+        debug("http://www.fail.com", tag: "get")
+        debug("http://www.fail.com", tag: "404")
+        
+        
         let tableFlip = "(╯°□°）╯︵ ┻━┻"
         debug(tableFlip, tag: "rage")
 
