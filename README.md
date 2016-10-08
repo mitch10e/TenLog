@@ -1,12 +1,12 @@
 # TenLog
 ## A lightweight logger
 
-[![badge-language]][swift.org]
-[![CocoaPods](https://img.shields.io/cocoapods/v/TenLog.svg?maxAge=2592000)]()
-[![license](https://img.shields.io/github/license/mitch10e/TenLog.svg?maxAge=2592000)]()
-[![GitHub tag](https://img.shields.io/github/tag/mitch10e/TenLog.svg?maxAge=2592000)]()
-[![GitHub stars](https://img.shields.io/github/stars/mitch10e/TenLog.svg?style=social&label=Star&maxAge=2592000)]()
-[![Twitter Follow](https://img.shields.io/twitter/follow/mitchell10e.svg?style=social&label=Follow&maxAge=2592000)]()
+[![swift.org](https://img.shields.io/badge/Swift-3.0-orange.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/TenLog.svg)]()
+[![license](https://img.shields.io/github/license/mitch10e/TenLog.svg)]()
+[![GitHub tag](https://img.shields.io/github/tag/mitch10e/TenLog.svg)]()
+[![GitHub stars](https://img.shields.io/github/stars/mitch10e/TenLog.svg?style=social&label=Star)]()
+[![Twitter Follow](https://img.shields.io/twitter/follow/mitchell10e.svg?style=social&label=Follow)]()
 
 TenLog is an alternative to using the default ```print()``` statement in your Swift projects, 
 Created and maintained by [Mitchell Tenney](https://gitlab.com/u/mitch10e)
