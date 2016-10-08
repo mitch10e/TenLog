@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         
         debug("Item 1", "Item 2", "Item 3", tag: "Test")
         
-        
+        debug("Don't forget to ⭐️ the repo!\n\tThank You!", tag: "Vital")
     }
     
 }
