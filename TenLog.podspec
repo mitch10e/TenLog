@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
 	spec.source_files	= ['Source/Classes/**/*']
 
-	spec.platform		= :ios, "9.0"
+	spec.platform		= :ios, "10.0"
 	spec.requires_arc	= true
 	spec.framework		= "Foundation"
 end
