@@ -20,8 +20,18 @@ class ViewController: UIViewController {
         debug("http://www.example.com", tag: "get")
         debug("http://www.example.com", tag: "200")
         
-        debug("http://www.fail.com", tag: "get")
-        debug("http://www.fail.com", tag: "404")
+        debug("http://www.failurl.com", tag: "get")
+        debug("http://www.failurl.com", tag: "404")
+        
+        TenLogSettings.disable(tag: "get")
+        TenLogSettings.disable(tag: "200")
+        TenLogSettings.disable(tag: "404")
+        debug("http://www.example.com", tag: "get")
+        debug("http://www.example.com", tag: "200")
+        
+        debug("http://www.failurl.com", tag: "get")
+        debug("http://www.failurl.com", tag: "404")
+        
         
         let tableFlip = "(╯°□°）╯︵ ┻━┻"
         debug(tableFlip, tag: "rage")
@@ -31,7 +41,7 @@ class ViewController: UIViewController {
         
         debug("Item 1", "Item 2", "Item 3", tag: "Test")
         
-        
+        debug("Don't forget to ⭐️ the repo!\n\tThank You!", tag: "Vital")
     }
     
 }

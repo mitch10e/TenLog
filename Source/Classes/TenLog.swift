@@ -8,12 +8,29 @@
 
 import Foundation
 
+/**
+ The core of the TenLog library. debug() can be used exactly as the print() function. Acts as a pretty print function.
+ - Parameter items: What to print out
+ - Parameter tag: Override the default tag
+ */
+
 public func debug(_ items: Any..., tag: String = "\(TenLogSettings.shared.defaultTag)") {
-    #if DEBUG
+    if shouldPrint(tag) {
         for item in items {
             print("\(normalize(tag))\(TenLogSettings.shared.separator)\(normalize(item))")
         }
-    #endif
+    }
+}
+
+fileprivate func shouldPrint(_ tag: String) -> Bool {
+    var shouldPrint = true
+    if !TenLogSettings.shared.enabled {
+        shouldPrint = false
+    }
+    if TenLogSettings.shared.disabledTags.contains(tag.uppercased()) {
+        shouldPrint = false
+    }    
+    return shouldPrint
 }
 
 fileprivate func normalize(_ item: Any) -> String {
