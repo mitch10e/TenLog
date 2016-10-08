@@ -428,6 +428,7 @@
 				A045FEFA1DA89ED0005FA248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A045FEFB1DA89ED0005FA248 /* Build configuration list for PBXNativeTarget "TenLogTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +437,7 @@
 				A045FEFD1DA89ED0005FA248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
