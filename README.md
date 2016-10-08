@@ -1,7 +1,6 @@
 # TenLog
 ## A lightweight logger
 
-[![swift.org](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org/)
 [![CocoaPods](https://img.shields.io/cocoapods/v/TenLog.svg)]()
 [![license](https://img.shields.io/github/license/mitch10e/TenLog.svg)]()
 
