@@ -1,7 +1,7 @@
 # TenLog
 ## A lightweight logger
 
-TenLog is an alternative to using the default ```ruby print()``` statement in your Swift projects, 
+TenLog is an alternative to using the default ```print()``` statement in your Swift projects, 
 Created and maintained by [Mitchell Tenney](https://gitlab.com/u/mitch10e)
 
 ## Installation
@@ -30,9 +30,9 @@ $ pod install
 
 ## Usage
 
-To use TenLogs, simply use the ```ruby debug()``` statement as if it were ```ruby print()```
+To use TenLogs, simply use the ```debug()``` statement as if it were ```print()```
 
-You can change the settings of the output via the ```ruby TenLogSettings``` class.
+You can change the settings of the output via the ```TenLogSettings``` class.
 
 
 ## License
@@ -40,7 +40,9 @@ You can change the settings of the output via the ```ruby TenLogSettings``` clas
   - https://opensource.org/licenses/mit-license.html
 
 ## Changelog
+
 [v0.2.2](https://gitlab.com/mitch10e/tenlog/blob/develop/CHANGELOG.md#022)
+
 [v0.1.0](https://gitlab.com/mitch10e/tenlog/blob/develop/CHANGELOG.md#010)
 
 ## Versioning
