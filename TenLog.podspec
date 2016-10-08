@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 	spec.name 			= "TenLog"
 	spec.author			= { "mitch10e" => "mitch10e@gmail.com" }
-	spec.version 		= "0.1.0"
+	spec.version 		= "0.2.0"
 	spec.license		= "MIT"
 	
 	spec.summary		= "Easy to read logging"
